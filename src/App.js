@@ -1,5 +1,12 @@
 import React from 'react'
 
+function Some() {
+  return <div>hello world</div>
+}
 export default function App() {
-  return <div>App</div>
+  return (
+    <div>
+      <Some />
+    </div>
+  )
 }
